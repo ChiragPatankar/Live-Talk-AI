@@ -1,0 +1,15 @@
+numpy
+opencv-python
+mtcnn
+dlib
+gtts
+moviepy
+torch
+torchvision
+Pillow
+soundfile
+librosa
+edge-tts
+requests
+streamlit
+# SadTalker and its dependencies will be installed via instructions in the README

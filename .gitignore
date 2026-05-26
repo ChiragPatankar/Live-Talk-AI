@@ -1,0 +1,28 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.env.*
+
+# Large model files (download per README)
+shape_predictor_68_face_landmarks.dat
+*.dat.bz2
+
+# Duplicate nested clone (full SadTalker code is at SadTalker/)
+SadTalker/SadTalker/
+
+# SadTalker weights and generated output
+SadTalker/checkpoints/
+SadTalker/gfpgan/
+SadTalker/assets/
+SadTalker/results/
+SadTalker/examples/results/
+
+# Local outputs
+output/
+outputs/
+*.mp4
+*.wav
+!SadTalker/examples/**/*.mp4
